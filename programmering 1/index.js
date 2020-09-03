@@ -11,4 +11,4 @@ if (age >= 18){
 
 // DOM - Document Object Model
 let text = document.querySelector("#text")
-text.innerHTML = `${name} är ${age} är gammal`
+text.innerHTML = `${name} är ${age} år gammal`

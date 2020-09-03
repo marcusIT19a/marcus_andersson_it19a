@@ -12,3 +12,13 @@ if (age >= 18){
 // DOM - Document Object Model
 let text = document.querySelector("#text")
 text.innerHTML = `${name} är ${age} år gammal`
+
+let mult = document.querySelector("#multplikation")
+let div = document.querySelector("#division")
+let add = document.querySelector("#addition")
+let sub = document.querySelector("#subtraktion")
+
+mult.innerHTML = `multiplikation`
+div.innerHTML = `division`
+add.innerHTML = `addition`
+sub.innerHTML = `subtraktion`

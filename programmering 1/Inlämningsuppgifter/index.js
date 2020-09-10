@@ -7,5 +7,5 @@ let nummer = prompt("vad är ditt nummer?")
 
 console.log(`namn: ${name}`)
 console.log(`ålder: ${age}`)
-console.log(`adress: ${adress} ${postnummer} ${stad}`
+console.log(`adress: ${adress} ${postnummer} ${stad}`)
 console.log(`nummer: ${nummer}`)

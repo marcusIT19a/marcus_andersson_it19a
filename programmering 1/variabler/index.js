@@ -14,4 +14,4 @@ let langd = prompt("ange värdet för rektangelns längd ")
 
 bredd = prompt("ange bredden på rektangeln")
 
-console.log(`bredden på rektangeln ${bredd})
+console.log(`bredden på rektangeln ${bredd}`)

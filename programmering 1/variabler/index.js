@@ -21,3 +21,4 @@ console.log(`bredden på rektangeln ${bredd}`)
 console.log(`längden på rektangeln är ${langd}`)
 
 console.log(`arean av rektangeln är ${area}`)
+

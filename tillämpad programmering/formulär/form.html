@@ -6,57 +6,63 @@
     <title>Document</title>
 </head>
 <body>
+
     <h1>Hämi formulär</h1>
     <p>Fyll i formuläret</p>
     <form action="mailto:marcus.andersson3@elev.ga.ntig.se" method="get" enctype="text/plain">
         <hr>
+        
         <div>
         <label for="email">EMAIL</label>
-        <input type="email" placeholder="epost" name="email" id="email" required>
+        <input type="email" placeholder="Epost" name="email" id="email" required>
         </div>
         
         <div>
-        <label for="psw">password</label>
-        <input type="password" placeholder="lösenord" name="psw" id="psw" required>
+        <label for="psw">LÖSENORD</label>
+        <input type="password" placeholder="Lösenord" name="psw" id="psw" required>
         </div>
 
         <div>
         <label for="psw-repeat">EMAIL</label>
-        <input type="password" placeholder="repeat password" name="psw-repeat" id="psw-repeat" required>
+        <input type="password" placeholder="Upprepa Lösenord" name="psw-repeat" id="psw-repeat" required>
         </div>
 
         <div>
-        <label for="switch">Jag skulle gärna vilja ha gratis lauantai makkara
-        <input type="checkbox">
-        </label>
+        <label for="date">DATE</label>
+        <input type="date" placeholder="Datum" name="date" id="date" required>
         </div>
 
-        <div>
-        <label for="">EMAIL</label>
-        <input type="email" placeholder="epost" name="email" id="email" required>
+         <div>
+            <label for="switch">Jag skulle gärna vilja ha gratis lauantai makkara
+            <input type="checkbox">
+            </label>
         </div>
 
-        <div>
-        <label for="email">EMAIL</label>
-        <input type="email" placeholder="epost" name="email" id="email" required>
-        </div>
-
-        <div>
-        <label for="email">EMAIL</label>
-        <input type="email" placeholder="epost" name="email" id="email" required>
-        </div>
-
-        <div>
-            <label for="email">EMAIL</label>
-            <input type="email" placeholder="epost" name="email" id="email" required>
+         <div>
+         <input type="radio" id="male" name="gender" value="male">
+         <label for="male">Male</label><br>
+         <input type="radio" id="female" name="gender" value="female" checked="checked">
+         <label for="female">Female</label><br>
+         <input type="radio" id="other" name="gender" value="other">
+         <label for="other">Other</label><br><br>
          </div>
+
+         <hr>
 
          <div>
             <input type="submit" value="Submit"> 
          </div>
+
+
+        <div>
+            <input type="reset" value="Reset"
+        </div>
+
+
+        <p Tryck på Submit knappen för att skcika in dina svar></p>
     
     
-    
+         
     
     
     

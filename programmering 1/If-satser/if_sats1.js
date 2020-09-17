@@ -29,3 +29,5 @@ if (tal1 > 0 )
 } else {
     console.log("Negativt")
 }
+
+

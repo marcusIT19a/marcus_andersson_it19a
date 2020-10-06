@@ -2,7 +2,7 @@ header, nav, article, aside, footer {
     border:1px solid black;
     text-align:center;
     background:white;
-    margin:5px;
+    margin: 5px;
 }
 /*nav, article, aside wrapper*/
 section{

@@ -1,0 +1,9 @@
+@media only screen and (max-width: 660px) {
+    section {
+      flex-direction:column;
+    }
+  }
+
+  nav{
+    flex:1;
+}

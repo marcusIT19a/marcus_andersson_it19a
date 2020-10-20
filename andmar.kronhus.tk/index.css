@@ -1,30 +1,66 @@
-header, nav, article, aside, footer {
+header, nav, footer {
     border:1px solid black;
     text-align:center;
     background:white;
     margin: 5px;
 }
-/*nav, article, aside wrapper*/
+
 section{
     display:flex; 
     margin:0;
 }
-/*size of nav, artivle, aside*/
+
 nav{
-    flex:1;
+    flex:1;  
 }
-article{
-    flex:3;
-}
-aside{
-    flex:1;
-}
+
 footer{
 
 }
-/*The @media rule is used in media queries to apply different styles for different media types/devices.*/
+
+.wrapper{
+    display:flex;
+    margin:auto;
+    width:50%;
+}
+
 @media only screen and (max-width: 660px) {
     section {
       flex-direction:column;
     }
   }
+
+  ul {
+    list-style-type: none;
+    margin: 100px;
+    padding: 0px;
+    width: 100px;
+    background-color: white;
+    height:50px;
+}
+li {
+    flex:1;
+}
+li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    
+}
+
+/* Change the link color on hover*/
+li a:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+body{
+background-color: lightseagreen;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: hotpink;
+  }
+}

@@ -6,4 +6,53 @@
 
   nav{
     flex:1;
+
+
+}.wrapper{
+  display:flex;
+  margin:auto;
+  width:50%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 100px;
+  padding: 0px;
+  width: 100px;
+  background-color: white;
+  height:50px;
+}
+li {
+  flex:1;
+}
+li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  
+}
+
+
+li a:hover {
+  background-color: lightgray;
+  color: black;
+}
+
+body{
+  background-color: mediumpurple;
+}
+
+
+@media only screen and (max-width: 660px) {
+  body{
+    background-color: lightgreen;
+  }
+}
+
+
+@media only screen and (max-width: 660px) {
+  section {
+    flex-direction:column;
+  }
 }

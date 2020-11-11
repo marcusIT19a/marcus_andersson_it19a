@@ -1,0 +1,50 @@
+header, nav {
+    border:1px solid black;
+    text-align:center;
+    background:white;
+    margin: 5px;
+}
+
+section{
+    display:flex; 
+    margin:0;
+}
+
+nav{
+    flex:1;  
+}
+
+ a:hover {
+    
+}
+
+body{
+background-color: white;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: hotpink;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+    section {
+      flex-direction:column;
+    }
+  }
+
+
+p {
+    display: none;
+    background-color: red;
+    padding: 20px;
+  }
+  
+  div:hover p {
+    display: block;
+  }
+
+           

@@ -22,3 +22,7 @@ console.log(`Bokstav på index 4 är: ${bokstav5}`)
 
 let antal_bokstaver = alfabet.length
 console.log( `Antal bokstäver i alfabetet är ${antal_bokstaver}`)
+
+
+
+

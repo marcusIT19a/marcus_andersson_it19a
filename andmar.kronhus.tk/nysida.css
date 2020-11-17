@@ -1,5 +1,4 @@
 header, nav {
-    border:1px solid black;
     text-align:center;
     background:white;
     margin: 5px;
@@ -22,6 +21,10 @@ body{
 background-color: white;
 }
 
+img{
+  border: 2px;
+}
+      
 
 
 @media only screen and (max-width: 600px) {

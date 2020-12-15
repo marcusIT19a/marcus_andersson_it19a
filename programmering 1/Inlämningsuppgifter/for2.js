@@ -6,7 +6,7 @@ p_jamna.innerHTML = "Jämna tal från 0 till 100: "
 p_udda.innerHTML ="Udda tal från 0 till 100: "
 
 for (let i=0; i<=100; i++){
-    p_jamna.innerHTML += ${i} 
+    p_jamna.innerHTML += ${i}
     i++
 }
 
